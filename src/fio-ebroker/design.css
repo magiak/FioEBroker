@@ -1,0 +1,78 @@
+﻿@media DISABLED {
+    /*
+    #00458A; FIO_COLOR
+    #084694; FIO_DARK_BLUE_COLOR
+    #C0E0F0; FIO_BLUE_COLOR
+    #C0E0F0; FIO_LEFT_MENU_COLOR
+    */
+
+    body {
+        font-size: 13px !important;
+    }
+
+    #overhead {
+        background: url(https://www.fio.cz/gfx/logo3.gif) -5px 0 no-repeat !important;
+        background-color: #f3f6f9 !important;
+    }
+
+    #main-menu {
+        height: 30px !important;
+        background-color: white !important;
+        font-size: 15px !important;
+        padding: 0px !important;
+    }
+
+    #main-menu a {
+        color: #C0E0F0 !important; /*FIO_BLUE_COLOR*/
+    }
+
+    .top-menu-item {
+        color: white !important;
+    }
+
+    .top-menu-item-negative {
+        color: red !important;
+    }
+
+    #main-menu .menu-item, .menu-item-selected {
+        height: 30px !important;
+        padding-top: 4px !important;
+        border: none !important;
+    }
+
+    #a1, #a2, #a3, #a4, #a5, #a6 {
+        margin-left: -10px !important;
+        margin-top: 10px !important;
+    }
+
+    #a1, #a2, #a3, #a4, #a5, #a6 p {
+        padding: 3px !important;
+    }
+
+    .main-style-left {
+        width: 200px !important;
+        background-color: #C0E0F0 !important; /*FIO_LEFT_MENU_COLOR*/
+    }
+
+    #main-left {
+        background-color: #C0E0F0 !important; /*FIO_LEFT_MENU_COLOR*/
+    }
+
+    #main-left-in {
+        background-color: #C0E0F0 !important; /*FIO_LEFT_MENU_COLOR*/
+        font-size: 13px !important;
+    }
+}
+
+#main-left-in {
+    padding: 5px 5px 10px 5px !important;
+}
+
+#main-menu .popup a {
+    color: white !important;
+}
+
+.popup {
+    background-color: #084694 !important;
+    color: white !important;
+}
