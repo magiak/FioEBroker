@@ -106,7 +106,7 @@ function getTickerId(tickerName) {
 
 function getTickerCurrency() {
     var regExp = /\(([^)]+)\)/;
-    var matches = regExp.exec($("#noPrice label").text());
+    var matches = regExp.exec($(".noPrice label").text());
 
     // matches[1] contains the value between the parentheses
     return matches[1];
